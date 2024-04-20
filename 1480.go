@@ -11,7 +11,7 @@ func runningSum(nums []int) []int {
 	}
 	return output
 }
-func main() {
+func init() {
 	nums := []int{1, 2, 3, 4}
 	fmt.Println(runningSum(nums))
 }
